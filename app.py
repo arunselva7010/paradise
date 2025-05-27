@@ -198,4 +198,4 @@ Thank you for choosing Paradise Restaurant!"""
         return jsonify({"error": "Internal server error"}), 500
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5678)
+    app.run(debug=True)
